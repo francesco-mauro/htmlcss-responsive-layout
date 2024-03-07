@@ -49,9 +49,15 @@
 /* hero */
 
 .hero{
-    padding: 5rem 0;
-    text-align: center;
+    padding: 1.5rem 0;
     /* debug */
     background-color: lightgray;
 }
+
+.col{
+    border: 2px solid orange;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
 

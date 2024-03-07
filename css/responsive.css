@@ -24,4 +24,17 @@
         list-style: none;
         gap: 1rem;
     }
+
+    /* hero */
+    .columns{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+
+    .col{
+        width: 30%;
+    }
+
 }
