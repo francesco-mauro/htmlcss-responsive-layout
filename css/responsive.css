@@ -3,9 +3,14 @@
 @media screen and (min-width:768px) {
 
     .columns {
+        display: flex;
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: wrap;
+    }
+
+    .first-col{
+        width: 60%;
     }
 
     /* Desktop 992px */
