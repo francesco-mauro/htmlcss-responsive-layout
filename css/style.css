@@ -10,3 +10,36 @@
 }
 
 /* common */
+.container{
+    width: 100%;
+    padding: 0px 1rem;
+}
+
+
+/* utilities */
+.flex{
+    display: flex;
+}
+
+.jc-between{
+    justify-content: space-between;
+}
+
+
+
+/* header */
+.main-header{
+    background-color: #0084fd;
+    line-height: clamp(3.8rem ,calc(3.8vw + .8rem), 5rem);
+    height: clamp(3.8rem ,calc(3.8vw + .8rem), 5rem);
+
+    /* debug */
+}
+
+.header-menu{
+    display: none;
+}
+
+.fix-menu-btn{
+    font-size: 1.5rem;
+}
