@@ -1,11 +1,27 @@
 /* Desktop 992px */
 
 @media screen and (min-width:992px) {
+    
+    /* common */
+    .container{
+        width: 80%;
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+
+    
+    /* header */
     .fix-btn{
         display: none;
     }
 
     .header-menu{
         display: block;
+    }
+
+    .header-menu ul{
+        display: flex;
+        list-style: none;
+        gap: 1rem;
     }
 }
