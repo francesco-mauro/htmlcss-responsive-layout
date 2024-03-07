@@ -44,3 +44,14 @@
     font-size: 1.5rem;
     background-color: transparent;
 }
+
+/* Main  */
+/* hero */
+
+.hero{
+    padding: 5rem 0;
+    text-align: center;
+    /* debug */
+    background-color: lightgray;
+}
+
