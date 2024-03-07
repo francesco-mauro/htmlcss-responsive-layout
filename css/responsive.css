@@ -1,40 +1,36 @@
-/* Desktop 992px */
+/* tablet: 768px */
 
-@media screen and (min-width:992px) {
-    
+@media screen and (min-width:768px) {
+
+    .columns {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    /* Desktop 992px */
+
+
     /* common */
-    .container{
+    .container {
         width: 80%;
         margin: 0 auto;
         max-width: 1000px;
     }
 
-    
     /* header */
-    .fix-btn{
+    .fix-btn {
         display: none;
     }
 
-    .header-menu{
+    .header-menu {
         display: block;
     }
 
-    .header-menu ul{
+    .header-menu ul {
         display: flex;
         list-style: none;
         gap: 1rem;
-    }
-
-    /* hero */
-    .columns{
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-
-
-    .col{
-        width: 30%;
     }
 
 }
