@@ -5,16 +5,28 @@
     .columns {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
         flex-wrap: wrap;
     }
 
-    .first-col{
-        width: 60%;
+    .col{
+        width: calc(100% / 3 - (2rem/3));
     }
 
-    /* Desktop 992px */
+    #first-col {
+        width: calc(2 * 100% / 3 -(1rem / 3));
+    }
 
+    /* MAIN  ++++++++++++++++++++++++++++++++++++++++++++*/
+    /* HERO ++++++++++++++++++++++++++++++++++++++++++++*/
+   
+    .hero .columns :first-child{
+        width: calc(2 * 100% / 3 - 1rem / 3);
+    }
+
+}
+
+/* Desktop 992px */
+@media screen and (min-width:992px) {
 
     /* common */
     .container {
