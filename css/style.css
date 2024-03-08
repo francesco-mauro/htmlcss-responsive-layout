@@ -9,6 +9,10 @@
     font-family: PT Sans, sans-serif;
 }
 
+img{
+    max-width: 100%;
+}
+
 /* common +++++++++++++++++++++++++++++++++++++++++++++++++*/
 .container {
     width: 100%;
@@ -42,6 +46,10 @@
 
 .debug-height-200{
     min-height: 200px;
+}
+
+.text-align-center{
+    text-align: center;
 }
 
 /* paddings */
@@ -106,6 +114,19 @@
     /* debug */
     min-height: 200px;
 }
+
+/* <!-- Partners +++++++++++++++++++++++++++++++++++++++++++++++++ --> */
+
+.partners-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partners-image{
+    width: 80%;
+}
+
 
 
 
