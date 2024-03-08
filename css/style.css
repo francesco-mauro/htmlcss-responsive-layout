@@ -18,6 +18,14 @@
     border: 1px solid black;
 }
 
+.container-small {
+    width: 100%;
+    padding: 0px 1rem;
+
+    /* debug */
+    border: 1px solid white;
+}
+
 
 /* utilities +++++++++++++++++++++++++++++++++++++++++++++++++*/
 .flex {
@@ -32,10 +40,20 @@
     justify-content: center;
 }
 
+.debug-height-200{
+    min-height: 200px;
+}
+
 /* paddings */
 
 .p-all-2r {
     padding: 2rem;
+}
+
+/* colors +++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.bg-pink{
+  background-color: pink;
 }
 
 

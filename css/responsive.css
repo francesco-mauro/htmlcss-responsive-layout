@@ -35,6 +35,16 @@
         max-width: 1000px;
     }
 
+    .container-small {
+        width: 70%;
+        margin: 0 auto;
+        max-width: 800px;
+        padding: 0px 1rem;
+    
+        /* debug */
+        border: 1px solid white;
+    }
+
     /* header */
     .fix-btn {
         display: none;
@@ -48,6 +58,19 @@
         display: flex;
         list-style: none;
         gap: 1rem;
+    }
+
+    /* MAIN +++++++++++++++++++++++++++++++++++++ */
+    /* <!-- strategic-planning +++++++++++++++++++++++++++++++++++++++++++++++++ --> */
+
+    .strategic-planning .columns{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .strategic-planning .colu{
+        width: 50%;
     }
 
 }
