@@ -50,11 +50,16 @@
     .partners-col {
         display: flex;
         flex-direction: row;
+        width: 80%;
     }
 
     .partners-text {
         width: 70%;
     }
+
+
+
+    
 
 
     /* <!-- benefits +++++++++++++++++++++++++++++++++++++++++++++++++ --> */

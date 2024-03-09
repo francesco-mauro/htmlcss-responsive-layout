@@ -181,6 +181,16 @@ img {
 
 .partners-image {
     width: 80%;
+    text-align: center;
+}
+
+.partners-image img {
+    border-radius: 50%;
+    aspect-ratio: 1;
+    object-position: center;
+    object-fit: cover;
+    width: 70%;
+
 }
 
 /* <!-- call-to-action --> */
