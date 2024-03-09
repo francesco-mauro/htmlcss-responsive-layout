@@ -24,6 +24,15 @@
     .ai-flex-start{
         align-items: flex-start;
     }
+
+    /* <!-- strategic-planning +++++++++++++++++++++++++++++++++++++++++++++++++ --> */
+
+    #strategic-planning .columns {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+    }
     
 
 
@@ -134,20 +143,13 @@
 
     /* <!-- strategic-planning +++++++++++++++++++++++++++++++++++++++++++++++++ --> */
 
-    .strategic-planning .columns {
+    #strategic-planning .columns {
         display: flex;
         flex-direction: row;
         justify-content: center;
-    }
-
-    .strategic-planning .colu {
-        width: 50%;
-    }
-
-
-    .strategic-planning .columns {
         align-items: flex-end;
     }
+
 
     /* <!-- benefits +++++++++++++++++++++++++++++++++++++++++++++++++ --> */
 
