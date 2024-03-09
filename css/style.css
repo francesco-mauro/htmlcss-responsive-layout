@@ -192,8 +192,55 @@ img {
     width: 70%;
 }
 
+/* <!-- benefits +++++++++++++++++++++++++++++++++++++++++++++++++ --> */
+
+.inner-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
 #benefits .button.bg-blue.text-white{
     margin: 1rem 0;
+}
+
+/* <!-- about us +++++++++++++++++++++++++++++++++++++++++++++++++--> */
+
+.col.picture img{
+    border-radius: 50%;
+    aspect-ratio: 1;
+    object-position: center;
+    object-fit: cover;
+    width: 100%;
+}
+
+.col.picture{
+    text-align: center;
+}
+
+.ancor{
+    position: relative;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    object-position: center;
+    object-fit: cover;
+    width: 40%;
+}
+
+
+#about .button.bg-blue.text-white{
+    margin: 1rem 0;
+}
+
+.quote-icon {
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    font-size: 24px; 
+    color: black
+    z-index: 999;
+    font-size: 2rem;
 }
 
 /* <!-- call-to-action --> */
@@ -204,13 +251,6 @@ img {
 
 }
 
-/* <!-- benefits +++++++++++++++++++++++++++++++++++++++++++++++++ --> */
-
-.inner-container{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
 
 /* <!-- footer  --> */
 
