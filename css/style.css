@@ -131,6 +131,10 @@ padding-top: 1rem;
     width: 80%;
 }
 
+/* <!-- call-to-action --> */
 
-
-
+.container-cta{
+    width: 100%;
+    padding: 0px 1rem;
+    
+}

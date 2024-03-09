@@ -75,6 +75,14 @@
         width: 38%;
     }
 
+    /* <!-- call-to-action --> */
+
+    .container-cta {
+        width: 90%;
+        margin: 0 auto 1rem;
+    }
+
+
 
 }
 
@@ -146,6 +154,15 @@
     #about .picture {
         width: 28%;
     }
+
+    /* <!-- call-to-action --> */
+
+    .container-cta {
+        width: 50%;
+        max-width: 450px;
+        margin: 0 auto 1rem;
+    }
+
 
 
 
