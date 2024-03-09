@@ -23,7 +23,7 @@
         width: calc(2 * 100% / 3 - 1rem / 3);
     }
 
-    /* main  +++++++++++++++++++++++++++++++++++ */
+
     /* <!-- Partners +++++++++++++++++++++++++++++++++++++++++++++++++ --> */
     #partners-col-id {
         display: flex;
@@ -40,9 +40,25 @@
         flex-direction: row;
     }
 
-    .partners-text{
+    .partners-text {
         width: 70%;
     }
+
+
+    /* <!-- benefits +++++++++++++++++++++++++++++++++++++++++++++++++ --> */
+
+    #benefits {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 0;
+    }
+
+    #benefits .col {
+        width: 46%;
+        margin: 0 auto 1rem ;
+    }
+
 }
 
 /* Desktop 992px */
@@ -96,6 +112,12 @@
 
     .strategic-planning .columns {
         align-items: flex-end;
+    }
+
+    /* <!-- benefits +++++++++++++++++++++++++++++++++++++++++++++++++ --> */
+
+    #benefits .col {
+        width: 31%;
     }
 
 }
