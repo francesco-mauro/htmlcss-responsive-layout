@@ -190,7 +190,10 @@ img {
     object-position: center;
     object-fit: cover;
     width: 70%;
+}
 
+#benefits .button.bg-blue.text-white{
+    margin: 1rem 0;
 }
 
 /* <!-- call-to-action --> */
@@ -199,6 +202,14 @@ img {
     width: 100%;
     padding: 0px 1rem;
 
+}
+
+/* <!-- benefits +++++++++++++++++++++++++++++++++++++++++++++++++ --> */
+
+.inner-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* <!-- footer  --> */
