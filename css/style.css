@@ -136,5 +136,15 @@ padding-top: 1rem;
 .container-cta{
     width: 100%;
     padding: 0px 1rem;
-    
+
 }
+
+/* <!-- footer  --> */
+
+footer{
+
+    /* debug */
+    background-color: gray;
+    color: white;
+}
+
