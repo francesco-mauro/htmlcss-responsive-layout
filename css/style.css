@@ -13,26 +13,29 @@ img {
     max-width: 100%;
 }
 
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* common +++++++++++++++++++++++++++++++++++++++++++++++++*/
 .container {
     width: 100%;
     padding: 0px 1rem;
-
-    /* debug */
-    border: 1px solid black;
 }
 
 .container-small {
     width: 100%;
     padding: 0px 1rem;
-
-    /* debug */
-    border: 1px solid white;
 }
 
 .button {
     width: 200px;
-    margin: 1rem auto;
+    margin: 1rem;
     padding: 10px 20px;
     text-align: center;
     font-weight: bold;
@@ -40,7 +43,7 @@ img {
     text-decoration: none;
 }
 
-.header-icon{
+.header-icon {
     font-size: clamp(6rem, calc(6vw + .8rem), 8rem)
 }
 
@@ -81,8 +84,20 @@ img {
     background-color: pink;
 }
 
-.bg-blue{
-    background-color: aquamarine;
+.bg-blue {
+    background-color: #0084fd;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-light-blue{
+    background-color: lightblue;
+}
+
+.bg-light-purple{
+    background-color: #9593e6;
 }
 
 /* text +++++++++++++++++++++++++++++++++++++++++++++++++ */
@@ -95,8 +110,16 @@ img {
     color: white;
 }
 
-.text-left{
+.text-left {
     text-align: left;
+}
+
+.text-black{
+    color: black;
+}
+
+.text-blue {
+    color: #0084fd;
 }
 
 
@@ -127,8 +150,6 @@ img {
 
 .hero {
     padding: 1.5rem 0;
-    /* debug +++++++++++++++++++++++++++++++++++++++++++++++++*/
-    background-color: lightgray;
 }
 
 .columns {
@@ -136,23 +157,18 @@ img {
     flex-direction: column;
     gap: 1rem;
     align-items: center;
-
-    /* debug */
-    background-color: lightblue;
-
 }
 
 .col {
-    border: 2px solid orange;
     border-radius: 5px;
     width: 100%;
 
     /* debug */
     min-height: 200px;
+
 }
 
 .inner-col {
-    border: 2px solid orange;
     border-radius: 5px;
     width: 100%;
     margin: 0 auto;
@@ -167,9 +183,17 @@ img {
     max-width: 55%;
 }
 
-.app-store{
+.app-store {
     display: block;
 }
+
+/* <!-- strategic-planning +++++++++++++++++++++++++++++++++++++++++++++++++ --> */
+
+.boy{
+    text-align: center;
+    border-radius: 15px;
+}
+
 
 /* <!-- Partners +++++++++++++++++++++++++++++++++++++++++++++++++ --> */
 
@@ -194,20 +218,20 @@ img {
 
 /* <!-- benefits +++++++++++++++++++++++++++++++++++++++++++++++++ --> */
 
-.inner-container{
+.inner-container {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
 
-#benefits .button.bg-blue.text-white{
+#benefits .button.bg-blue.text-white {
     margin: 1rem 0;
 }
 
 /* <!-- about us +++++++++++++++++++++++++++++++++++++++++++++++++--> */
 
-.col.picture img{
+.col.picture img {
     border-radius: 50%;
     aspect-ratio: 1;
     object-position: center;
@@ -215,11 +239,11 @@ img {
     width: 100%;
 }
 
-.col.picture{
+.col.picture {
     text-align: center;
 }
 
-.ancor{
+.ancor {
     position: relative;
     border-radius: 50%;
     aspect-ratio: 1;
@@ -229,16 +253,16 @@ img {
 }
 
 
-#about .button.bg-blue.text-white{
+#about .button.bg-blue.text-white {
     margin: 1rem 0;
 }
 
 .quote-icon {
-    position: absolute; 
-    top: 0; 
-    right: 0; 
-    font-size: 24px; 
-    color: black
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 24px;
+    color: black;
     z-index: 999;
     font-size: 2rem;
 }
