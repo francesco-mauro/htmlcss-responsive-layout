@@ -12,9 +12,7 @@
         width: calc(100% / 3 - (2rem/3));
     }
 
-    #first-col {
-        width: calc(2 * 100% / 3 -(1rem / 3));
-    }
+
 
     /* MAIN  ++++++++++++++++++++++++++++++++++++++++++++*/
     /* HERO ++++++++++++++++++++++++++++++++++++++++++++*/
@@ -22,6 +20,11 @@
     .hero .columns :first-child {
         width: calc(2 * 100% / 3 - 1rem / 3);
     }
+
+    .ai-flex-start{
+        align-items: flex-start;
+    }
+    
 
 
     /* <!-- Partners +++++++++++++++++++++++++++++++++++++++++++++++++ --> */
@@ -122,6 +125,13 @@
     }
 
     /* MAIN +++++++++++++++++++++++++++++++++++++ */
+    /* HERO ++++++++++++++++++++++++++++++++++++++++++++*/
+
+    #card-double-width{
+        display: flex;
+        flex-direction: row;
+    }
+
     /* <!-- strategic-planning +++++++++++++++++++++++++++++++++++++++++++++++++ --> */
 
     .strategic-planning .columns {
