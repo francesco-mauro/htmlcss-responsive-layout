@@ -22,6 +22,10 @@ a {
     color: inherit;
 }
 
+button{
+    border: none;
+}
+
 /* common +++++++++++++++++++++++++++++++++++++++++++++++++*/
 .container {
     width: 100%;
@@ -68,7 +72,7 @@ a {
     text-align: center;
 }
 
-/* paddings */
+/* paddings +++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 .p-all-2r {
     padding: 2rem;
@@ -76,6 +80,16 @@ a {
 
 .pt-1 {
     padding-top: 1rem;
+}
+
+.pv-2-rem{
+    padding: 2rem 0;
+}
+
+/* margin +++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.ml-1rem{
+    margin-left: 1rem;
 }
 
 /* bg colors +++++++++++++++++++++++++++++++++++++++++++++++++ */
@@ -120,6 +134,10 @@ a {
 
 .text-blue {
     color: #0084fd;
+}
+
+.text-light-purple {
+    color: #9593e6;
 }
 
 
@@ -201,6 +219,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 1rem;
 }
 
 .partners-image {
@@ -226,7 +245,7 @@ a {
 
 
 #benefits .button.bg-blue.text-white {
-    margin: 1rem 0;
+    margin: 1rem 1rem;
 }
 
 /* <!-- about us +++++++++++++++++++++++++++++++++++++++++++++++++--> */
