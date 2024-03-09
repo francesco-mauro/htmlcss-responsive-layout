@@ -47,7 +47,8 @@
 
     /* <!-- benefits +++++++++++++++++++++++++++++++++++++++++++++++++ --> */
 
-    #benefits {
+    #benefits .col,
+    #about .col {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -56,8 +57,24 @@
 
     #benefits .col {
         width: 46%;
-        margin: 0 auto 1rem ;
+        margin: 0 auto 1rem;
     }
+
+
+    /* <!-- about us +++++++++++++++++++++++++++++++++++++++++++++++++--> */
+
+    #about .col {
+        margin: 0 auto 1rem;
+    }
+
+    #about .text {
+        width: 60%;
+    }
+
+    #about .picture {
+        width: 38%;
+    }
+
 
 }
 
@@ -119,5 +136,17 @@
     #benefits .col {
         width: 31%;
     }
+
+    /* <!-- about us +++++++++++++++++++++++++++++++++++++++++++++++++--> */
+
+    #about .text {
+        width: 68%;
+    }
+
+    #about .picture {
+        width: 28%;
+    }
+
+
 
 }
