@@ -47,6 +47,11 @@ button{
     text-decoration: none;
 }
 
+.center-medium-80{
+    width: 80%;
+    margin: 0 auto;
+}
+
 .header-icon {
     font-size: clamp(6rem, calc(6vw + .8rem), 8rem)
 }
