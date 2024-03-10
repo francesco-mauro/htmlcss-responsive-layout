@@ -278,6 +278,10 @@ button{
 
 /* <!-- about us +++++++++++++++++++++++++++++++++++++++++++++++++--> */
 
+#about .col.text {
+    align-self: flex-start;
+}
+
 .col.picture img {
     border-radius: 50%;
     aspect-ratio: 1;
@@ -309,7 +313,6 @@ button{
     top: 0;
     right: 0;
     font-size: 24px;
-    color: black;
     z-index: 999;
     font-size: 2rem;
 }
