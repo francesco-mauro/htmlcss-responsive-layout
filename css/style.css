@@ -79,9 +79,15 @@ button{
 
 /* paddings +++++++++++++++++++++++++++++++++++++++++++++++++ */
 
+.p-all-1r {
+    padding: 1rem;
+}
+
 .p-all-2r {
     padding: 2rem;
 }
+
+
 
 .pt-1 {
     padding-top: 1rem;
@@ -95,6 +101,10 @@ button{
 
 .ml-1rem{
     margin-left: 1rem;
+}
+
+.mt-1r{
+    margin-top: 1rem;
 }
 
 /* bg colors +++++++++++++++++++++++++++++++++++++++++++++++++ */
